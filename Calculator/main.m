@@ -11,7 +11,10 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSInteger firstNumber = 7;
+        NSInteger secondNumber = 2;
+        NSInteger result = firstNumber * secondNumber;
+        NSLog(@"First number is: %li, Second number is: %li, Result is: %li", firstNumber, secondNumber, result);
     }
     return 0;
 }
